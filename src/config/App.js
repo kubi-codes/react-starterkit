@@ -1,10 +1,10 @@
-import React from "react";
-import Routes from "./Routes";
+import React, { Suspense } from "react";
+import Routes from "./routes";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <Suspense fallback={<p>Loading...</p>}>
       <Router>
         {/* 
           A <Switch> looks through its children <Route>s and
@@ -21,7 +21,7 @@ function App() {
           ))}
         </Switch>
       </Router>
-    </>
+    </Suspense>
   );
 }
 

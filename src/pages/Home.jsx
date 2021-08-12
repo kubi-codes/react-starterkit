@@ -2,7 +2,11 @@ import React, { memo } from "react";
 import { connect } from "react-redux";
 
 function Home(props) {
-  return <></>;
+  return (
+    <>
+      <h1>HENLO</h1>
+    </>
+  );
 }
 
 Home.propTypes = {};
