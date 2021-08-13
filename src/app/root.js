@@ -1,5 +1,7 @@
 import React from "react";
 import App from "./app";
+import Theme from "style/material.theme";
+import { ThemeProvider } from "@material-ui/core/styles";
 
 // Use Redux
 import { Provider } from "react-redux";
@@ -10,7 +12,9 @@ function Root() {
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>
-        <App />
+        <ThemeProvider theme={Theme}>
+          <App />
+        </ThemeProvider>
       </PersistGate>
     </Provider>
   );
