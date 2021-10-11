@@ -27,13 +27,13 @@ const Routes = [
   {
     path: "/something-wrong",
     component: React.lazy(() => import("pages/500")),
-    name: "SOMETHING WRONG",
+    name: "Something Wrong",
     exact: true,
   },
   {
     path: "*",
     component: React.lazy(() => import("pages/404")),
-    name: "PAGE NOT FOUND",
+    name: "Page not found",
     exact: true,
   },
 ];

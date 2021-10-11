@@ -33,7 +33,7 @@ export default function Main() {
         Something went wrong
       </Text>
       <Text gutterBottom>Looks like server failed to load yout request</Text>
-      <Button variant="contained" size="small" onClick={loadPages}>
+      <Button variant="contained" onClick={loadPages}>
         Reload Pages
       </Button>
     </Box>

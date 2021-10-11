@@ -36,7 +36,7 @@ export default function Main() {
       <Text gutterBottom>
         We can't seem to find the pages you're looking for.
       </Text>
-      <Button variant="contained" size="small" onClick={loadPages}>
+      <Button variant="contained" onClick={loadPages}>
         Go Back
       </Button>
     </Box>
