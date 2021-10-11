@@ -1,10 +1,11 @@
 import React, { memo } from "react";
 import { connect } from "react-redux";
+import Text from "@mui/material/Typography";
 
 function Home(props) {
   return (
     <>
-      <h1>HENLO</h1>
+      <Text>HENLO</Text>
     </>
   );
 }

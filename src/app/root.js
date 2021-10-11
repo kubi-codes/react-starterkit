@@ -1,7 +1,7 @@
 import React from "react";
 import App from "./app";
 import Theme from "style/material.theme";
-import { ThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@mui/material/styles";
 
 // Use Redux
 import { Provider } from "react-redux";
