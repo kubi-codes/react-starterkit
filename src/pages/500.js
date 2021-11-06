@@ -24,8 +24,9 @@ export default function Main() {
   const classes = useStyles();
 
   const loadPages = () => {
-    window.history.back();
+    window.location.reload();
   };
+
   return (
     <Box className={classes.root}>
       <img src="/vector/500.png" alt="something wrong" loading="lazy" />
