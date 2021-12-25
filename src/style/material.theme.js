@@ -73,7 +73,12 @@ const mainTheme = createTheme({
     MuiButton: {
       defaultProps: {
         disableElevation: true,
-        size: "small"
+        size: "small",
+      },
+      styleOverrides: {
+        outlinedPrimary: {
+          fontSize: "11px",
+        },
       },
     },
   },

@@ -1,5 +1,6 @@
 import axios from "axios";
 import rateLimit from "axios-rate-limit";
+import Swal from "sweetalert2";
 
 const http = rateLimit(axios.create(), {
   maxRequests: 2,

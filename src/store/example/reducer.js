@@ -1,4 +1,4 @@
-import type from "./type";
+import types from "./types";
 
 const defaultState = {
   loading: false,
@@ -8,25 +8,25 @@ const defaultState = {
 
 const reducer = (state = defaultState, action) => {
   switch (action.type) {
-    case type.GET: {
+    case types.GET: {
       return {
         ...state,
         loading: true,
       };
     }
-    case type.SET: {
+    case types.SET: {
       return {
         ...state,
         loading: false,
       };
     }
-    case type.UPDATE: {
+    case types.UPDATE: {
       return {
         ...state,
         loading: false,
       };
     }
-    case type.DELETE: {
+    case types.DELETE: {
       return {
         ...state,
         loading: false,

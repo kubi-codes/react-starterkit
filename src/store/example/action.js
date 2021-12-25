@@ -1,21 +1,21 @@
-import type from "./type";
+import types from "./types";
 
 export const GET_EXAMPLE = (payload) => ({
-  type: type.GET,
+  type: types.GET,
   payload,
 });
 
 export const SET_EXAMPLE = (payload) => ({
-  type: type.SET,
+  type: types.SET,
   payload,
 });
 
 export const UPDATE_EXAMPLE = (payload) => ({
-  type: type.UPDATE,
+  type: types.UPDATE,
   payload,
 });
 
 export const DELETE_EXAMPLE = (payload) => ({
-  type: type.DELETE,
+  type: types.DELETE,
   payload,
 });
