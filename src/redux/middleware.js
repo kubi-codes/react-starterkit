@@ -1,8 +1,8 @@
-import logger from "redux-logger";
+// import logger from "redux-logger";
 import thunk from "redux-thunk";
 
 // dev middleware
-const DEV_MIDDLEWARE = [logger];
+const DEV_MIDDLEWARE = [];
 
 // main middleware
 let MAIN_MIDDLEWARE = [thunk];
